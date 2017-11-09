@@ -1,2 +1,5 @@
-# fungame
-A game to display frequencies from user input
+# Number frequency game
+
+Simply run `npm run start`
+
+Requires node >= 6

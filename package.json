@@ -1,0 +1,26 @@
+{
+  "name": "fungame",
+  "version": "1.0.0",
+  "description": "Simply run `node index.js`",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benno007/fungame.git"
+  },
+  "author": "Ben Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Benno007/fungame/issues"
+  },
+  "homepage": "https://github.com/Benno007/fungame#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.2",
+    "sinon-chai": "^2.14.0"
+  }
+}
