@@ -4,7 +4,7 @@ const fibo = require('./isFib');
 // The interval in ms
 let intervalValue;
 // The interval instance
-let interval;
+let interval = null;
 
 /**
  * Helper to clear the timer
@@ -128,5 +128,7 @@ const close = () => {
 module.exports = {
     firstQuestion,
     runAction,
-    close
+    close,
+    interval,
+    intervalValue
 };
